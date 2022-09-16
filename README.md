@@ -6,4 +6,4 @@ especially during the unavailability of hospital beds in hospitals due to the pa
 
 This project's front-end can be developed into a mobile application, preferably offline. 
 
-Start with read the file name 'Guidelines' in the repository. 
+Start with reading the file named 'Guidelines' in the repository. 
