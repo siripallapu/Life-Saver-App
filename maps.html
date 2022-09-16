@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_838b535e1af04e11887b5b8b8db2dc2c {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_838b535e1af04e11887b5b8b8db2dc2c" ></div>
+        
+</body>
+<script>    
+    
+            var map_838b535e1af04e11887b5b8b8db2dc2c = L.map(
+                "map_838b535e1af04e11887b5b8b8db2dc2c",
+                {
+                    center: [23.569958, 52.343959],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 7,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_8d0a4ece0d9d4ccb95da0879c1284352 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_838b535e1af04e11887b5b8b8db2dc2c);
+        
+    
+            var feature_group_6ff3f9195cdc47d688131902ec30fa0b = L.featureGroup(
+                {}
+            ).addTo(map_838b535e1af04e11887b5b8b8db2dc2c);
+        
+    
+            var marker_1ea5a17452f64803a67b8b6ce855ce99 = L.marker(
+                [23.543522, 52.570552],
+                {}
+            ).addTo(feature_group_6ff3f9195cdc47d688131902ec30fa0b);
+        
+    
+        var popup_9188b2e4cea14e7cbbfb2e0ae9604697 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_22e1def49b84434fa20545be409a7f99 = $(`<div id="html_22e1def49b84434fa20545be409a7f99" style="width: 100.0%; height: 100.0%;">Hospital 1</div>`)[0];
+            popup_9188b2e4cea14e7cbbfb2e0ae9604697.setContent(html_22e1def49b84434fa20545be409a7f99);
+        
+
+        marker_1ea5a17452f64803a67b8b6ce855ce99.bindPopup(popup_9188b2e4cea14e7cbbfb2e0ae9604697)
+        ;
+
+        
+    
+    
+            var marker_5e752563fcc94579a912c8a568d00071 = L.marker(
+                [23.435206, 52.812251],
+                {}
+            ).addTo(feature_group_6ff3f9195cdc47d688131902ec30fa0b);
+        
+    
+        var popup_cb5463662e9b4e13a1eaa44a994f766f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_66adbd205fae4bd7a874a5c609f054fb = $(`<div id="html_66adbd205fae4bd7a874a5c609f054fb" style="width: 100.0%; height: 100.0%;">Hospital 2</div>`)[0];
+            popup_cb5463662e9b4e13a1eaa44a994f766f.setContent(html_66adbd205fae4bd7a874a5c609f054fb);
+        
+
+        marker_5e752563fcc94579a912c8a568d00071.bindPopup(popup_cb5463662e9b4e13a1eaa44a994f766f)
+        ;
+
+        
+    
+    
+            var marker_3cf162e73d90416a9be1abb2e32ff890 = L.marker(
+                [23.569958, 52.343959],
+                {}
+            ).addTo(feature_group_6ff3f9195cdc47d688131902ec30fa0b);
+        
+    
+        var popup_f10600861a1045ad830b986304313b06 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a8ab62eab80d4257a5037bc64d49e53c = $(`<div id="html_a8ab62eab80d4257a5037bc64d49e53c" style="width: 100.0%; height: 100.0%;">Hospital 3</div>`)[0];
+            popup_f10600861a1045ad830b986304313b06.setContent(html_a8ab62eab80d4257a5037bc64d49e53c);
+        
+
+        marker_3cf162e73d90416a9be1abb2e32ff890.bindPopup(popup_f10600861a1045ad830b986304313b06)
+        ;
+
+        
+    
+</script>
