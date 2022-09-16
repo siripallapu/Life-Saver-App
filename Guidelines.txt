@@ -1,0 +1,63 @@
+DEVELOPER NAME: SIRI CHANDANA PALLAPU
+
+APP DESCRIPTION: 
+
+Our program helps patients to contact or book on appointment in registered hospitals faster, especially
+in emergency cases. This code can be used to create offline application too.
+When somebody has to book an appointment in a hospital, our program takes in details from the user
+such as the details required for registration and shows the user the nearest hospitals in which they can
+go. It also asks if they patient needs ambulance and reports it to hospital. The data the user enters would be transferred into the hospital database 
+(which is modeled in MySQL) for required preparations. 
+
+
+PROJECT DETAILS:
+
+This was a group project under CBSE Grade 12 Computer Science course. Under this project, I lead a team of three in creating a python based application with 
+MySQL and MS Excel interface of more than 1000 lines of code, which can serve the purpose of saving lives of those in emergency and other common cases, 
+especially during the unavailability of hospital beds in hospitals due to the pandemic, showing the nearest hospitals and places available.
+
+CONTRIBUTION: 
+- Leading the project
+- Establishing the interface between Python, MS Excel and MySQL and all the related code. 
+- Reconstructing, rewriting and compiling the entire raw code into the final working code. 
+- Working on GUI elements of the code. 
+
+
+NOTE:
+
+The code shown in the repository is the back-end. Front-end has been developed only to an extent and has potential to be developed further into an actual app as required. 
+
+EXECUTION ORDER OF THE FILES IN THE REPOSITORY: 
+
+Computer Software Requirements: Python, MySQL, MyExcel
+
+This project contains mutliple files which are needed to be executed in order.  
+Most of them are connected, but in case they don't progress forward, the following order can be used.
+As a backend code, the execution will be automatic and smoother when embedded into the actual user-interface app. 
+
+
+Execution order:
+
+Part1
+
+Part2
+(Part 2 is emergency
+PArt2a is non emergency
+part2b is covid19
+part2c is other)
+
+chosehospital
+
+form
+
+ambulance
+
+lastpage
+
+mysql and excel code will be executed automatically as per the embedded code in previous files. 
+
+
+
+EXECUTION SAMPLE SCREENSHOTS
+
+A word file of the original project report, explaning more about how the code works with screenshots towards the end of the report, is attached in the repository. 
