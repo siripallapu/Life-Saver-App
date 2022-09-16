@@ -5,3 +5,5 @@ This project is currently and primarily a back-end code designed of more than 10
 especially during the unavailability of hospital beds in hospitals due to the pandemic, showing the nearest hospitals and places available.
 
 This project's front-end can be developed into a mobile application, preferably offline. 
+
+Start with read the file name 'Guidelines' in the repository. 
